@@ -78,10 +78,6 @@ The `TreeRoot` component accepts the following props:
 - **TreeData**: The type defining the structure of the tree data.
 - **TreeRootProps**: The props accepted by the `TreeRoot` component.
 
-## Contributing
-
-Contributions are always welcome! Please read the [contributing guidelines](LINK_TO_CONTRIBUTING_GUIDELINES) before making a pull request.
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
