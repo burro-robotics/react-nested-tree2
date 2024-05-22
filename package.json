@@ -1,8 +1,8 @@
 {
   "name": "react-nested-tree2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A headless and configurable nested React tree component",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
