@@ -1,28 +1,28 @@
-# react-nested-tree
+# react-nested-tree2
 
-`react-nested-tree` is a flexible React component library for rendering nested tree structures. This package allows you to easily create and manage tree components with customizable rendering for both branches and leaves.
+`react-nested-tree2` is a flexible React component library for rendering nested tree structures. This package allows you to easily create and manage tree components with customizable rendering for both branches and leaves.
 
 ## Installation
 
-To install react-nested-tree, use npm:
+To install react-nested-tree2, use npm:
 
 ```bash
-npm install react-nested-tree
+npm install react-nested-tree2
 ```
 
 Or with yarn:
 
 ```bash
-yarn add react-nested-tree
+yarn add react-nested-tree2
 ```
 
 ## Usage
 
-To use `react-nested-tree` in your project, import the `TreeRoot` component and provide it with data and rendering functions for the branches and leaves.
+To use `react-nested-tree2` in your project, import the `TreeRoot` component and provide it with data and rendering functions for the branches and leaves.
 
 ```jsx
 import React from "react";
-import { TreeRoot } from "react-nested-tree";
+import { TreeRoot } from "react-nested-tree2";
 
 const App = () => {
   return (

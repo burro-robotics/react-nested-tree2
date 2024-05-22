@@ -1,6 +1,6 @@
 {
-  "name": "react-nested-tree",
-  "version": "0.0.1",
+  "name": "react-nested-tree2",
+  "version": "0.0.2",
   "description": "A headless and configurable nested React tree component",
   "main": "index.js",
   "files": [
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burro-robotics/react-nested-tree.git"
+    "url": "git+https://github.com/burro-robotics/react-nested-tree2.git"
   },
   "author": "Paul Jones",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/burro-robotics/react-nested-tree/issues"
+    "url": "https://github.com/burro-robotics/react-nested-tree2/issues"
   },
-  "homepage": "https://github.com/burro-robotics/react-nested-tree#readme",
+  "homepage": "https://github.com/burro-robotics/react-nested-tree2#readme",
   "peerDependencies": {
     "react": "^18.3.1"
   },
