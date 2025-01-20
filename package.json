@@ -1,13 +1,20 @@
 {
   "name": "react-nested-tree2",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A headless and configurable nested React tree component",
-  "main": "dist/index.js",
+  "main": "build/src/index.js",
   "files": [
-    "dist"
+    "build"
   ],
   "scripts": {
-    "build": "tsc --jsx react"
+    "build": "tsc",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -24,6 +31,8 @@
   },
   "devDependencies": {
     "@types/react": "^18.3.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.6.3",
+    "gts": "^6.0.2",
+    "@types/node": "^22.7.5"
   }
 }
