@@ -14,11 +14,7 @@ export type TreeRootProps<BranchType, LeafType> =
     data: TreeData<BranchType, LeafType>;
     depth?: number;
     renderLeaf: (item: LeafType) => ReactNode;
-    renderBranch: (
-      item: BranchType,
-      isToggled: boolean,
-      onToggle: () => void,
-    ) => ReactNode;
+    renderBranch: (item: TreeData<BranchType, LeafType>) => ReactNode;
   };
 
 export function TreeRoot<BranchType, LeafType>({
