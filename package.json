@@ -1,6 +1,6 @@
 {
   "name": "react-nested-tree2",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A headless and configurable nested React tree component",
   "main": "build/src/index.js",
   "files": [
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/burro-robotics/react-nested-tree2#readme",
   "peerDependencies": {
-    "react": "^18.3.1"
+    "react": "^19.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.8",
