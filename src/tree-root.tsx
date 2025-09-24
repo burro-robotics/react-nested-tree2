@@ -14,17 +14,15 @@ export type TreeRootProps<BranchType, LeafType> =
     data: TreeData<BranchType, LeafType>;
     depth?: number;
     renderLeaf: (item: LeafType) => ReactNode;
-    renderBranch: (
-      item: BranchType,
-      isToggled: boolean,
-      onToggle: () => void,
-    ) => ReactNode;
+    renderBranch: (item: BranchType) => ReactNode;
+    getIsToggled: (data: TreeData<BranchType, LeafType>) => boolean;
   };
 
 export function TreeRoot<BranchType, LeafType>({
   data,
   renderLeaf,
   renderBranch,
+  getIsToggled,
   depth,
   ...ulProps
 }: PropsWithChildren<TreeRootProps<BranchType, LeafType>>) {
@@ -40,6 +38,7 @@ export function TreeRoot<BranchType, LeafType>({
                 depth={depth ? depth + 1 : 1}
                 renderBranch={renderBranch}
                 renderLeaf={renderLeaf}
+                getIsToggled={getIsToggled}
                 rootProps={ulProps}
               />
             );
