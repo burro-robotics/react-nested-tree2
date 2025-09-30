@@ -43,18 +43,20 @@ const App = () => {
                 children: [{ id: 5, data: { name: "- Leaf 1-4-1" } }],
               },
             ],
+            isToggled: true,
           },
           {
             id: 2,
             data: { name: "* Branch 2" },
             children: [{ id: 5, data: { name: "- Leaf 2-1" } }],
+            isToggled: false,
           },
         ],
       }}
       renderLeaf={(leaf) => {
         return <p>{leaf.name}</p>;
       }}
-      renderBranch={(branch, _isToggled, onToggle) => {
+      renderBranch={(treeData) => {
         return <button onClick={onToggle}>{branch.name}</button>;
       }}
     />
@@ -70,7 +72,7 @@ The `TreeRoot` component accepts the following props:
 
 - **data**: The tree structure data.
 - **renderLeaf**: A function to render a leaf node.
-- **renderBranch**: A function to render a branch node with toggle functionality.
+- **renderBranch**: A function to render a branch node.
 - **depth** (optional): The initial depth to render.
 
 ## Types
